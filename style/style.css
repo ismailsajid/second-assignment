@@ -9,7 +9,7 @@ body{
     font-family: "Inter", sans-serif;
     background-color: black;
 }
-/* navbar styles here */
+/* navbar styles starts here */
 header{
     background:linear-gradient(rgb(17, 17, 17),rgba(119, 119, 119, .35),rgb(0, 0, 0)) ;
 }
@@ -49,20 +49,22 @@ header{
     color: white;
     display: none;
 }
-.head{
+.brand{
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
 
 }
-/* Banner style here */
+/* navbar styles ends here */
+
+/* Banner style stars here */
 .banner{
     max-width: 1300px;
     margin: 0 auto;
     margin-bottom: 100px;
    
 }
-.b-title{
+.banner-title{
     color: white;
     font-size: 78px;
     font-weight: 900;
@@ -72,7 +74,7 @@ header{
     font-family: miama;
     font-weight: 400;
 }
-.b-sub-title{
+.banner-sub-title{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400px;
@@ -108,7 +110,7 @@ header{
     justify-content: space-around;  
     
 }
-.description{
+.banner-description{
     max-width: 520px;
     display: flex;
     flex-direction: column;
@@ -119,7 +121,7 @@ header{
     padding-top: 28px;
     padding-bottom: 28px;
 }
-.banner-sub-conttainer{
+.banner-sub-container{
     position: relative;
 }
 
@@ -179,5 +181,64 @@ color: rgba(255, 255, 255, 0.65);
 width: 40px;
 height: 40px;
 align-items:center ;
+}
+
+/* banner styles ends here */
+
+/* Habit styles starts here */
+.habits{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.habit-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 14px;
 
 }
+.habit-subtitle{
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+
+}
+.habit-description{
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+.habit-title-2{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 6px;
+}
+.habit-sub-title-2{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}
+.habit-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.habit-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+}
+.habit-sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* habit styles ends here */

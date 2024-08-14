@@ -1,4 +1,6 @@
 @media screen and (max-width: 576px) {
+     
+    /*navbar responsive starts here  */
     .nav-item{
         display: none;
     }
@@ -8,7 +10,10 @@
     .nav-bar{
         margin: 52px 20px;
     }
-    /* banner-style */
+
+    /* navbar responsive ends here */
+
+    /* banner responsive starts here */
     .banner-container{
         display: flex;
         flex-direction: column;
@@ -67,7 +72,8 @@ color: rgba(255, 255, 255, 0.65);
 .btn-responsive{
     display: block;
 }
-
+/* banner responsive ends here
+ */
 
 
 
