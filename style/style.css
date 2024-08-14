@@ -374,3 +374,65 @@ td{
     border-style: none;
 }
 /*  BMI styles ends here */
+
+/* <!-- Our team styles starts here --> */
+.Our-team-description{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.our-team-container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.team-title{
+font-size: 24px;
+font-weight: 800;
+color: white;
+}
+.team-sub-title{
+font-size: 16px;
+font-weight: 600px;
+color: darkgray;
+}
+.trainer-img{
+    width: 326px;
+    height: 272px;
+   
+    border-radius: 16px;
+
+   
+}
+.trainer-img img{
+    width: 100%;
+   
+}
+.team-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+    
+}
+.team-1{
+    position: absolute;
+    top: 80%;
+    left: 20px; 
+     
+   
+
+}
+.our-team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+   justify-items: center;
+   border-radius: 18px;
+   padding: 20px;
+   gap: 20px;
+}
+/* <!-- Our team styles ends here --> */

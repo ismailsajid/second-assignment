@@ -147,6 +147,25 @@ color: rgba(255, 255, 255, 0.65);
 }
 /* <!-- BMI responsive ends here --> */
 
+/* Our team responsive starts here */
+.our-team-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+   justify-items: center;
+   border-radius: 18px;
+   padding: 20px;
+   gap: 20px;
+}
+.our-team-container{
+    margin: 5%;
+}
+/* Our team responsive ends here */
+
+
+
+
+
 }
 
 
