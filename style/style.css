@@ -242,3 +242,46 @@ align-items:center ;
 }
 
 /* habit styles ends here */
+
+/* run-extra styles starts here */
+
+.run-extra{
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.run-img-responsive{
+    display: none;
+}
+.run-extra-img{
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+.run-extra-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+.run-extra-description{
+    width: 36%;
+  
+}
+.habit-padding{
+    padding-bottom: 34px;
+}
+.btn-3{
+    background: rgb(230, 83, 60);
+    border-style: none;
+    width: 224px;
+}
+
+
+/* run-extra styles ends here */

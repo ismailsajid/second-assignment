@@ -88,11 +88,51 @@ color: rgba(255, 255, 255, 0.65);
 
 /* habit responsive ends here */
 
+/* Run-extra responsive starts here */
+
+.run-img{
+    display: none;
+}
+.run-img-responsive{
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+}
+
+.run-extra{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+}
+.btn-responsive-1{
 
 
-
-
-
-
+        width: 287px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        padding: 16px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border-style: none;
     
 }
+.run-extra-description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.run-extra-img{
+    padding: 33px;
+}
+
+
+}
+
+
+/* run-extra responsive ends here */
+
