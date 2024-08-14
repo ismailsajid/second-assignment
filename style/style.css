@@ -1,43 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 
-
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.whisper-font{
-    font-family: "Whisper", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+/* navbar styles here */
+header{
+    background:linear-gradient(rgb(17, 17, 17),rgba(119, 119, 119, .35),rgb(0, 0, 0)) ;
+}
+.nav-bar{
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 52px;
+  margin-bottom: 32px;
   
 
-/* shares styles stars here */
-.display-flex{
-    display: flex;
 }
-
-
-/* shares styles ends here */
-
-/* navbar styles stars here */
-.nav-bar{
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
-}
-
-
 .nav-item{
-    list-style: none;
-    margin-right: 30px;
-}
-.nav-link{
+    display: flex;
+    color: white;
     text-decoration: none;
+    list-style-type: none;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 39px; 
+    font-size: 18px;
+    padding: 4px;
+    align-items: center;
+     
+}
+.home-btn{
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    width: 92px;
+    height: 38px;
+    text-align: center;
+    padding-top: 8px;
+}
+.hamberg-menu{
+    color: white;
+    display: none;
+}
+.head{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+
+}
+/* Banner style here */
+.banner{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+   
+}
+.b-title{
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+    
+}
+.span{
+    font-family: miama;
+    font-weight: 400;
+}
+.b-sub-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    display: flex;
+    gap: 14px;
+
+}
+.btn-responsive{
+    display: none;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+   
+}
+.btn-1{
+    background: rgb(230, 83, 60);
+    border-style: none;
+}
+.btn-2{
+    background-color: black;
+    border: 1px solid white;
+}
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    
+}
+.description{
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.b-sub-title{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.banner-sub-conttainer{
+    position: relative;
 }
 
+.des-1{
+    width: 12rem;
+    height: 6rem;
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+   backdrop-filter: blur(20px);
+   background: rgba(255, 255, 255, 0.1); 
+   padding-top: 10px;
+   text-align: center;
+}
 
-/* navbar styles ends here */
+.des-2{
+    color: white;
+    display: flex;
+    align-items: end;
+    width: 12rem;
+    height: 6rem;;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    position:absolute;
+    top: 70%;
+    left: -23%;  
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+   }
+   .banner-title-1{
+        font-size: 48px;
+        font-weight: 900;
+        color: white;  
+   }
+   .banner-sub-title-1{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+   }
+   .banner-title-2{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;  
+}
+.banner-sub-title-2{
+font-size: 16px;
+color: rgba(255, 255, 255, 0.65);
+}
+.img-1 img{
+width: 40px;
+height: 40px;
+align-items:center ;
+
+}
