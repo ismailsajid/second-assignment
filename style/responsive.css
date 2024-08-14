@@ -163,7 +163,6 @@ color: rgba(255, 255, 255, 0.65);
 /* Our team responsive ends here */
 
 /* responsive footer starts here */
-    @media screen and (max-width: 576px){
         .footer-text-container{
             width: 100%;
             flex-direction: column;
@@ -191,14 +190,13 @@ color: rgba(255, 255, 255, 0.65);
         .copy-right{
             width: 100%;
             padding: 0 15px;
-        }
-    
-    
+}
     /* responsive footer ends here */
 
-
-
 }
+
+
+
 
 
 
