@@ -53,6 +53,7 @@ header{
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
+    font-style: italic;
 
 }
 /* navbar styles ends here */
@@ -436,3 +437,80 @@ color: darkgray;
    gap: 20px;
 }
 /* <!-- Our team styles ends here --> */
+
+/* footer styles starts here */
+
+.my-footer-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 100%;
+    margin-top: 88px;
+    padding-bottom: 66px;
+}
+
+.footer-text-container{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 66px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-brand-content{
+    width:45%;
+}
+
+.footer-brand-content h2{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+.footer-brand-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.get-start-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.get-start-box h3{
+    font-size: 32px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+
+.get-start-box ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px; 
+}
+.get-start-box ul li:last-child{
+    margin-bottom: 0;
+}
+.copy-right{
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copy-right .drowline{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 36px;
+}
+.copy-right p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer styles ends here */

@@ -162,7 +162,39 @@ color: rgba(255, 255, 255, 0.65);
 }
 /* Our team responsive ends here */
 
-
+/* responsive footer starts here */
+    @media screen and (max-width: 576px){
+        .footer-text-container{
+            width: 100%;
+            flex-direction: column;
+            justify-content: start;
+            padding: 60px 15px;
+        }
+    
+        .footer-brand-content{
+            width:100%;
+        }
+        .get-start-container{
+            width: 100%;
+            flex-direction: column;
+    
+        }
+        .get-start-box{
+            width: 100%;
+        }
+        .get-start-box h3{
+            margin: 24px 0px;
+        }
+        .get-start-box ul li{
+            margin-bottom: 10px;
+        }
+        .copy-right{
+            width: 100%;
+            padding: 0 15px;
+        }
+    
+    
+    /* responsive footer ends here */
 
 
 
