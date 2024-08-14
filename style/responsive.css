@@ -129,10 +129,25 @@ color: rgba(255, 255, 255, 0.65);
 .run-extra-img{
     padding: 33px;
 }
+/* run-extra responsive ends here */
 
+/* BMI responsive start here */
+.b-description{
+    width: 90%;
+}
+.bmi-content{
+    display: flex;
+    
+}
+.content-1{
+    padding: 5%;
+}
+.content-2{
+    padding: 5%;
+}
+/* <!-- BMI responsive ends here --> */
 
 }
 
 
-/* run-extra responsive ends here */
 
