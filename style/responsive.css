@@ -72,9 +72,21 @@ color: rgba(255, 255, 255, 0.65);
 .btn-responsive{
     display: block;
 }
-/* banner responsive ends here
- */
+/* banner responsive ends here*/
 
+/* habit responsive starts here */
+.habit-content{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+.habit-title{
+    font-size: 40px;
+}
+
+/* habit responsive ends here */
 
 
 
